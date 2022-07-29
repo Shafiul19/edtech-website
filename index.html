@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>EdTech Website</title>
+    <title>Shafi Academy</title>
 
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -316,9 +316,36 @@
                 </div>
 
                 <div>
-                    <button class="btn btn-light text-primary px-4 py-2">Register Now</button>
+                    <button class="btn btn-light text-primary px-4 py-2" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">Register Now</button>
                 </div>
-
+                <div class="modal fade text-dark text-start" id="exampleModal" tabindex="-1"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Get Our Newsletter</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <div class="mb-3">
+                                    <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                    <input type="email" class="form-control" id="exampleFormControlInput1"
+                                        placeholder="name@example.com">
+                                </div>
+                                <div class="mb-3">
+                                    <label for="exampleFormControlTextarea1" class="form-label">Your Comment</label>
+                                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Save changes</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
             </div>
 
@@ -543,7 +570,7 @@
 
 
 
-        <section class="mt-5">
+        <section class="mt-5 d-none d-lg-block">
             <div class="row">
                 <div class="col-sm-">
                     <div>
@@ -576,7 +603,7 @@
 
 
             <div class="text-center p-5 text-light">
-                <h3 class="fw-bold">Pro Edu</h3>
+                <h3 class="fw-bold">Shafi Academy</h3>
 
                 <small>Privacy Ploicy | Terms of use</small>
 
